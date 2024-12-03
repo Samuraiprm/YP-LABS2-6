@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерфейсы ИБ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Интерфейс 1 -->
+        <div class="interface" id="interface1">
+            <h2> Основы информационной безопасности</h2>
+            <button onclick="handleAction(1, 1)">Основные понятия</button>
+            <button onclick="handleAction(1, 2)">Составляющие</button>
+        </div>
+
+        <!-- Интерфейс 2 -->
+        <div class="interface" id="interface2">
+            <h2> Объектно-ориентированный подход</h2>
+            <button onclick="handleAction(2, 1)">Основные понятия</button>
+            <button onclick="handleAction(2, 2)">Применение к защищаемым системам</button>
+        </div>
+
+        <!-- Интерфейс 3 -->
+        <div class="interface" id="interface3">
+            <h2> Угрозы информационной безопасности</h2>
+            <button onclick="handleAction(3, 1)">Угрозы доступности</button>
+            <button onclick="handleAction(3, 2)">Угрозы целостности</button>
+            <button onclick="handleAction(3, 3)">Угрозы конфиденциальности</button>
+        </div>
+
+        <!-- Интерфейс 4 -->
+        <div class="interface" id="interface4">
+            <h2> Законодательство и практика</h2>
+            <button onclick="handleAction(4, 1)">Ознакомиться с законодательством</button>
+            <button onclick="handleAction(4, 2)">Практическое задание</button>
+            <button onclick="handleAction(4, 3)">Контрольные вопросы</button>
+        </div>
+
+        <!-- Интерфейс 5 -->
+        <div class="interface" id="interface5">
+            <h2> Стандарты оценки ИБ</h2>
+            <button onclick="handleAction(5, 1)">Оранжевая книга</button>
+            <button onclick="handleAction(5, 2)">Рекомендации X.800</button>
+            <button onclick="handleAction(5, 3)">ISO/IEC 15408</button>
+            <button onclick="handleAction(5, 4)">Гармонизированные критерии</button>
+            <button onclick="handleAction(5, 5)">Руководящие документы</button>
+        </div>
+    </div>
+
+    <!-- Контейнер для отображения текста -->
+    <div id="output" class="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
